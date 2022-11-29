@@ -1,0 +1,9 @@
+.App, main { text-align: center; width: 100vw; margin: 0; padding: 30px; offset-distance: 10px; display: block; }
+
+.App-logo { height: 40vmin; pointer-events: none; }
+
+ul { display: inline-flex; list-style-type: none; display: -webkit-flex; }
+li { display: inline; padding: 20px; }
+h3 { font-size: 1rem; }
+
+img { width: 130px; }
