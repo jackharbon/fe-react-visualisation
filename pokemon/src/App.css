@@ -10,3 +10,7 @@
 img {
   width: 100px;
 }
+
+#modal-modal-title {
+  text-transform: capitalize;
+}

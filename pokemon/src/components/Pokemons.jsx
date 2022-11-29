@@ -28,7 +28,7 @@ function Pokemons() {
 	const handleClose = () => setOpen(false);
 
 	useEffect(() => {
-		fetch('https://pokeapi.co/api/v2/pokemon?limit=2000&offset=0')
+		fetch('https://pokeapi.co/api/v2/pokemon?limit=1000&offset=0')
 			.then((response) => response.json())
 			.then((allPokemon) => {
 				const pokemonMap = allPokemon.results.map((e, index) => {
@@ -61,7 +61,7 @@ function Pokemons() {
 											sx={{ width: 140, height: 140 }}
 										/>
 									</Item>
-									<Button onClick={handleOpen}>Open modal</Button>
+									<Button onClick={handleOpen}>Pokemon Id: {pokemonId}</Button>
 									<Modal
 										open={open}
 										onClose={handleClose}
@@ -69,10 +69,10 @@ function Pokemons() {
 										aria-describedby='modal-modal-description'>
 										<Box sx={style}>
 											<Typography id='modal-modal-title' variant='h6' component='h2'>
-												Text in a modal
+												Pokemon Id: {pokemonId}
 											</Typography>
 											<Typography id='modal-modal-description' sx={{ mt: 2 }}>
-												Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+												Pokemon details
 											</Typography>
 										</Box>
 									</Modal>
