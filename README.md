@@ -1,12 +1,20 @@
 [Work in pair with GJ](https://github.com/26june/fe-react-data-visualisation.git)
 
-# BOOKS
+# SIMPLE REACT APP VISUALISATION
+
+## GOOGLE BOOKS LIBRARY
 
 ![Books](./books.jpg?raw=true 'Books')
+
+## NASA METEROTITE API + MAP
+
 ![Meteors](./meteors.jpg?raw=true 'Meteors')
+
+## POKEMONS API
+
 ![Pokemons](./pokemons.jpg?raw=true 'Pokemons')
 
-# NASA MAP
+=======================================================
 
 # React Data Fetching
 
